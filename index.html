@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Can we connect Gong to an AI Tool Yet?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f9f9f8;
+    --text: #1a1a18;
+    --text-secondary: #5a5a56;
+    --text-tertiary: #9a9a94;
+    --surface: #ffffff;
+    --border: rgba(0,0,0,0.10);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a18;
+      --text: #f0f0ec;
+      --text-secondary: #a0a09a;
+      --text-tertiary: #606060;
+      --surface: #232320;
+      --border: rgba(255,255,255,0.10);
+    }
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 24px;
+    gap: 0;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: 28px;
+  }
+
+  h1 {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: clamp(22px, 4vw, 32px);
+    font-weight: 400;
+    color: var(--text-secondary);
+    text-align: center;
+    letter-spacing: -0.3px;
+    margin-bottom: 40px;
+    max-width: 560px;
+    line-height: 1.35;
+  }
+
+  .answer {
+    font-family: 'Instrument Serif', serif;
+    font-size: clamp(88px, 20vw, 160px);
+    font-weight: 400;
+    color: var(--text);
+    line-height: 0.9;
+    letter-spacing: -4px;
+    margin-bottom: 36px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: clamp(14px, 2.5vw, 17px);
+    color: var(--text-secondary);
+    text-align: center;
+    max-width: 420px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  .divider {
+    width: 40px;
+    height: 1px;
+    background: var(--border);
+    margin: 40px auto;
+  }
+
+  .footer {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+  <p class="eyebrow">Status update</p>
+  <h1>Can we connect Gong to an AI Tool Yet?</h1>
+  <div class="answer">Not Yet</div>
+  <p class="subtitle">But we promise we're working on it, stay tuned!</p>
+  <div class="divider"></div>
+  <p class="footer">canweconnectgongtoaiyet.com</p>
+</body>
+</html>
